@@ -135,16 +135,37 @@ for (let i = 5; i <= 10; i++) {
 // return arrayOfNumbers;
 
 
-const arr = [3, 5, 8, 16, 20, 23, 50];
-const result = [];
+// const arr = [3, 5, 8, 16, 20, 23, 50];
+// const result = [];
+
 
 // console.log(arr);
+// result.push(...arr);
+// // console.log(arr.length);
 // console.log(result);
 
-for (let i = 3; i <= 8; i++) {
-    result[i - 3] = i;
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+//[ 10, 20, 'Shopping - done', 40, 'Homework - done' ]
+
+
+for (let i = 0; i < data.length; i++) {
+    if (typeof(data[i]) === 'number') {
+        data[i] = data[i] * 2;
+    } else if (typeof(data[i]) === 'string') {
+        data[i] = `${data[i]} - done`;
+    }
 }
 
-// console.log(arr.length);
-console.log(result);
+// for (let i = 0; i < data.length; i++) {
+//     if (typeof(data[i]) === 'number') {
+//         data[i] = data[i] * 2;
+//     } else if (typeof(data[i]) === 'string') {
+//         data[i] = `${data[i]}` + ` - done`;
+//     }
+// }
+console.log(data);
+
+
+
 
