@@ -126,7 +126,3 @@ console.log(getMathResult(10, 3));
 
 
 
-
-
-
-
