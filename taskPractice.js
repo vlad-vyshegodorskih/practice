@@ -8,6 +8,7 @@ const str = "teSt";
 console.log(str.toUpperCase());  //возводит в верхний регистр
 console.log(str.toLowerCase());  //возводит в нижний регистр
 console.log(str);
+console.log(str.trim()) // вырезает из строки все знаки пробелов;
 
 const fruit = "Some fruit";
 
@@ -32,3 +33,6 @@ console.log(Math.round(num));  //округляет чисто до ближай
 const test = "12.2px";
 console.log(parseInt(test)); // переводит тип данных в number отрезая все кроме целого числа, не округляет.
 console.log(parseFloat(test)); //переводит тип данных в number сохраняя дробное значение, не округляет.
+
+
+
