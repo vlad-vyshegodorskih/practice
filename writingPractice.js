@@ -1,5 +1,7 @@
 'use strict';
 
+
+//IF (ELSE)
 if (4 == 9) {
     console.log("Ok!");
 } else {
@@ -16,9 +18,12 @@ if (num < 49) {
     console.log("Ok!");
 }
 
+//Тернарный оператор
 (num === 50) ? console.log("Ok!") : console.log("error");
 
 
+
+//Switch
 const num = 50;
 
 switch (num) {
@@ -35,3 +40,31 @@ switch (num) {
         console.log("нет верного ответа");
         break;
 }
+
+
+
+//LOGICAL OPERATORS
+
+// const hamburger = true;
+// const fries = false;
+
+// if (hamburger && fries) {
+//     console.log('Я сыт');
+// }
+
+// console.log( 5 === 5 && 3 > 1 || 5);
+
+
+
+
+
+let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+if (hamburger && cola || fries === 3 && nuggets) {
+   console.log('Done!')
+}
+
+console.log(hamburger && cola || fries === 3 && nuggets);
