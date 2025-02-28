@@ -122,57 +122,58 @@
 
 //FUNCTIONS
 
-let num = 20;
+// let num = 20;
 
-function showFirstMessage(text) {
-    console.log(text);
-    let num = 10;
-    console.log(num);
+// function showFirstMessage(text) {
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
   
-}
+// }
 
-showFirstMessage("Hello Wordl!");
-console.log(num);
-
-
-function calc(a, b) {
-    return (a + b);
-}
+// showFirstMessage("Hello Wordl!");
+// console.log(num);
 
 
-function ret() {
-    let num = 50;
-    return num;
-}
-
-const anotherNum = ret();
-console.log(anotherNum);
+// function calc(a, b) {
+//     return (a + b);
+// }
 
 
-const usdCurr = 28;
-const discount = 0.9;
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
 
 
-function convert (amount, curr) {
-    return curr * amount;
-}
+// const usdCurr = 28;
+// const discount = 0.9;
 
-function promotion(result) {
-    console.log(result * discount);
-}
 
-const res = convert(500, usdCurr);
-promotion(res);
+// function convert (amount, curr) {
+//     return curr * amount;
+// }
 
-function test() {
-    for (let i = 0; i < 5; i++) {
-        console.log(i);
-        if (i === 3) return
-    }
-    console.log("Done");
-}
+// function promotion(result) {
+//     console.log(result * discount);
+// }
 
-test();
+// const res = convert(500, usdCurr);
+// promotion(res);
 
-function doNothing() {};
-console.log(doNothing() === undefined);
+// function test() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log("Done");
+// }
+
+// test();
+
+// function doNothing() {};
+// console.log(doNothing() === undefined);
+
